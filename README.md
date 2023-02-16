@@ -3,6 +3,12 @@ Command pour window :
 composer i
 copy .env.example .env
 ```
+Command pour mac :
+```
+composer i
+cp .env.example .env
+```
+
 modifier l'env pour la db puis continuer les commandes suivante :
 ```
 php artisan migrate:fresh --seed --seeder=DatabaseSeeder
